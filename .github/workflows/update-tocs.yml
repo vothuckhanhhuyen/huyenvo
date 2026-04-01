@@ -1,6 +1,9 @@
 name: Update TOCs
 # This workflow automatically updates the Table of Contents (TOC) in markdown files
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 on:
   push:
     branches:

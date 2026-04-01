@@ -1,5 +1,8 @@
 name: Comment on pull request
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 on:
   repository_dispatch:
     types: [prettier-failed-on-pr]
